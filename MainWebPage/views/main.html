@@ -1,0 +1,18 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+          <script> src="https://unpkg.com/@splinetool/viewer@1.9.94/build/spline-viewer.js"</script>
+    <spline-viewer url="https://prod.spline.design/CVVNk6FSZOAKAnJs/scene.splinecode"></spline-viewer>
+ </body>
+    <script>
+        const container = document.querySelector('spline-viewer');
+        const viewer = container.getViewer();
+        viewer.on('load', () => {
+            console.log('Spline scene loaded');
+        });
+    

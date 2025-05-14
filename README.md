@@ -1,7 +1,7 @@
 # Mon Projet Git
 
 ## Description
-Ce projet est une démonstration de l'utilisation de Git et GitHub, avec une structure de dossiers propre pour organiser les fichiers JavaScript, HTML et autres ressources. Il est conçu pour gérer un site web simple avec des fichiers HTML et des scripts JavaScript.
+Testing web site on a Container 
 
 ## Structure du projet
 Voici l'organisation des fichiers dans ce projet :
